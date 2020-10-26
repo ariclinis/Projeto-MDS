@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_xvM_sBeNEeuW96qa_6mB6A" name="teste1">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_xzBIsBeNEeuW96qa_6mB6A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Gvm3kBezEeuW96qa_6mB6A" name="">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iMYVwBezEeuW96qa_6mB6A" name="Escolher Tipo de Transporte"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_EE8ysBe0EeuW96qa_6mB6A" name="Desconto"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_edE9ABe0EeuW96qa_6mB6A" name="Efetuar 2 pedidos"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qgV6kBe0EeuW96qa_6mB6A" name="Tipo de Transporte"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_K5VGABezEeuW96qa_6mB6A" name="Cliente"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tt5RIBezEeuW96qa_6mB6A" memberEnd="_tt9ikBezEeuW96qa_6mB6A _tt_-0BezEeuW96qa_6mB6A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tt7tYBezEeuW96qa_6mB6A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tt8UcBezEeuW96qa_6mB6A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tt9ikBezEeuW96qa_6mB6A" name="efetuar gorgeta" type="_iMYVwBezEeuW96qa_6mB6A" association="_tt5RIBezEeuW96qa_6mB6A"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tt_-0BezEeuW96qa_6mB6A" name="cliente" type="_K5VGABezEeuW96qa_6mB6A" association="_tt5RIBezEeuW96qa_6mB6A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ye8lUBezEeuW96qa_6mB6A" name="Aplicação"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_awaeABe0EeuW96qa_6mB6A" memberEnd="_awbsIRe0EeuW96qa_6mB6A _awbsIhe0EeuW96qa_6mB6A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_awbFEBe0EeuW96qa_6mB6A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_awbsIBe0EeuW96qa_6mB6A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_awbsIRe0EeuW96qa_6mB6A" name="aplicação" type="_ye8lUBezEeuW96qa_6mB6A" association="_awaeABe0EeuW96qa_6mB6A"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_awbsIhe0EeuW96qa_6mB6A" name="desconto" type="_EE8ysBe0EeuW96qa_6mB6A" association="_awaeABe0EeuW96qa_6mB6A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kimJwBe0EeuW96qa_6mB6A" memberEnd="_kiomABe0EeuW96qa_6mB6A _kipNEBe0EeuW96qa_6mB6A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kinX4Be0EeuW96qa_6mB6A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kin-8Be0EeuW96qa_6mB6A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kiomABe0EeuW96qa_6mB6A" name="efetuar 2 pedidos" type="_edE9ABe0EeuW96qa_6mB6A" association="_kimJwBe0EeuW96qa_6mB6A"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kipNEBe0EeuW96qa_6mB6A" name="aplicação" type="_ye8lUBezEeuW96qa_6mB6A" association="_kimJwBe0EeuW96qa_6mB6A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ohHNwBe0EeuW96qa_6mB6A" name="Motorista"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_t-Z84Be0EeuW96qa_6mB6A" memberEnd="_t-bLARe0EeuW96qa_6mB6A _t-bLAhe0EeuW96qa_6mB6A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t-aj8Be0EeuW96qa_6mB6A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t-bLABe0EeuW96qa_6mB6A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_t-bLARe0EeuW96qa_6mB6A" name="motorista" type="_ohHNwBe0EeuW96qa_6mB6A" association="_t-Z84Be0EeuW96qa_6mB6A"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_t-bLAhe0EeuW96qa_6mB6A" name="tipo de transporte" type="_qgV6kBe0EeuW96qa_6mB6A" association="_t-Z84Be0EeuW96qa_6mB6A"/>
+  </packagedElement>
+</uml:Model>
